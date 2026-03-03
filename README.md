@@ -1,4 +1,4 @@
-furniro-ecommerce/
+**furniro-ecommerce/**
 │
 ├── index.html
 ├── shop.html
@@ -32,5 +32,3 @@ furniro-ecommerce/
 │   │   └── helpers.js
 │   │
 │   └── main.js
-│
-└── README.md

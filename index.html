@@ -55,7 +55,7 @@
                 </div>
             </div>
         </header>
-        <main>
+        <main class="w-full flex items-center flex-col">
             <section id="categories" class="mt-25">
                 <div class="h-171.25 w-295.75 flex flex-col justify-between items-center">
                     <div class="w-139.25 h-[76.71px] flex flex-col items-center">
@@ -83,7 +83,7 @@
             </section>
 
             <section id="products">
-                <div class="w-full h-271 mt-15 flex flex-col justify-between items-center">
+                <div class="w-309 h-271 mt-15 flex flex-col justify-between items-center">
                     <div class="title  w-70 h-12">
                         <h1 class="capitalize text-[40px]/[120%] font-bold text-gray-600">our products</h1>
                     </div>
@@ -266,9 +266,62 @@
                 </div>
             </section>
 
-            <section id="inspiration">
-                <div class="w-full h-167.5 bg-sky-100 mt-25"></div>
-            </section>
+            <section id="inspiration" class="bg-[#fcf8f3] py-16 mt-15">
+                <div class="max-w-7xl mx-auto px-6">
+
+                    <div class="flex flex-col lg:flex-row items-center gap-10">
+
+                    <!-- Left Content -->
+                    <div class="lg:w-1/3">
+                        <h2 class="text-[40px] w-106.25 font-bold text-gray-700">
+                        50+ Beautiful rooms inspiration
+                        </h2>
+
+                        <p class="text-gray-500 font-medium">
+                        Our designer already made a lot of beautiful prototype of rooms that inspire you
+                        </p>
+
+                        <button class="bg-yellow-600 text-white w-44 h-12 font-medium cursor-pointer mt-10">
+                        Explore More
+                        </button>
+                    </div>
+
+                    <!-- Right Slider -->
+                    <div class="lg:w-2/3 flex gap-6">
+
+                        <!-- Slide -->
+                        <div class="relative min-w-101">
+                        <img 
+                            src="/assets/images/roonOne.png" class="w-101 h-145.5 object-cover"/>
+
+                        <div class="w-[217px] h-[130px] absolute bottom-4 left-4 bg-white flex flex-col justify-center items-center">
+                            <p class="text-lg text-gray-500 w-[142px] h-[24px]">01 — Bed Room</p>
+                            <h4 class="font-semibold text-[28px]/[150%] text-gray-700">Inner Peace</h4>
+                        </div>
+                        </div>
+
+                        <!-- Slide -->
+                        <div class="min-w-[300px]">
+                        <img 
+                            src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85"
+                            class="w-full h-[400px] object-cover"
+                        />
+                        </div>
+
+                        <!-- Slide -->
+                        <div class="min-w-[300px]">
+                        <img 
+                            src="https://images.unsplash.com/photo-1560185007-c5ca9d2c014d"
+                            class="w-full h-[400px] object-cover"
+                        />
+                        </div>
+
+                    </div>
+
+                    </div>
+
+                </div>
+                </section>
 
             <section id="gallery"></section>
         </main>

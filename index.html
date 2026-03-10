@@ -18,7 +18,7 @@
         </style>
         <title>Furniro | Home</title>
     </head>
-    <body class="flex flex-col items-center w-full h-1208">
+    <body class="flex flex-col items-center w-full h-full">
         <header id="header">
             <nav class="w-full h-25 flex justify-center items-center">
                 <div class="w-321.5 h-10.25 flex justify-between items-center">
@@ -267,66 +267,89 @@
             </section>
 
             <section id="inspiration" class="bg-[#fcf8f3] py-16 mt-15">
-                <div class="max-w-7xl mx-auto px-6">
+                <div class="w-360 h-167.5 px-10">
 
-                    <div class="flex flex-col lg:flex-row items-center gap-10">
+                    <div class="flex items-center gap-10">
 
                     <!-- Left Content -->
-                    <div class="lg:w-1/3">
-                        <h2 class="text-[40px] w-106.25 font-bold text-gray-700">
-                        50+ Beautiful rooms inspiration
-                        </h2>
+                        <div class="flex flex-col">
+                            <div class="w-105.5 h-37.75"> 
+                                <h2 class="text-[40px] w-106.25 font-bold text-gray-700">
+                                50+ Beautiful rooms inspiration
+                                </h2>
 
-                        <p class="text-gray-500 font-medium">
-                        Our designer already made a lot of beautiful prototype of rooms that inspire you
-                        </p>
+                                <p class="text-gray-500 font-medium">
+                                Our designer already made a lot of beautiful prototype of rooms that inspire you
+                                </p>
+                            </div>
 
-                        <button class="bg-yellow-600 text-white w-44 h-12 font-medium cursor-pointer mt-10">
-                        Explore More
-                        </button>
+                            <button class="bg-yellow-600 text-white w-44 h-12 font-medium cursor-pointer mt-10">
+                            Explore More
+                            </button>
+                        </div>
+
+                    <!-- Right Content -->
+                        <div class="w-299 h-145.5 overflow-hidden">
+                            <div class="flex gap-6 transition-transform duration-500">
+                            <!-- first Slide -->
+                                <div class="relative min-w-101">
+                                    <img src="/assets/images/roomOne.png" class="w-101 h-145.5 object-cover"/>
+                                    
+                                    <button class="cursor-pointer absolute bottom-4 right-34">
+                                            <img src="assets/icons/icon.svg" alt="icon">
+                                    </button>
+                                    
+                                    <div class="max-w-xs p-4 text-sm md:text-lg absolute bottom-4 left-4 bg-white flex flex-col justify-center items-center">
+                                        <p class="text-lg text-gray-500 w-35.5 h-6">01 — Bed Room</p>
+                                        <h4 class="font-semibold text-[28px]/[150%] text-gray-700">Inner Peace</h4>
+                                    </div>
+                                </div>
+
+                                <!-- Slide -->
+                                <div class="w-[372px]">
+                                    <img src="assets/images/roomTwo.png" class="h-121.5 object-cover"/>
+                                </div>
+
+                                <!-- Slide -->
+                                <div>
+                                    <img src="assets/images/roomThree.png" class="h-121.5 object-cover"/>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-
-                    <!-- Right Slider -->
-                    <div class="lg:w-2/3 flex gap-6">
-
-                        <!-- Slide -->
-                        <div class="relative min-w-101">
-                        <img 
-                            src="/assets/images/roonOne.png" class="w-101 h-145.5 object-cover"/>
-
-                        <div class="w-[217px] h-[130px] absolute bottom-4 left-4 bg-white flex flex-col justify-center items-center">
-                            <p class="text-lg text-gray-500 w-[142px] h-[24px]">01 — Bed Room</p>
-                            <h4 class="font-semibold text-[28px]/[150%] text-gray-700">Inner Peace</h4>
-                        </div>
-                        </div>
-
-                        <!-- Slide -->
-                        <div class="min-w-[300px]">
-                        <img 
-                            src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85"
-                            class="w-full h-[400px] object-cover"
-                        />
-                        </div>
-
-                        <!-- Slide -->
-                        <div class="min-w-[300px]">
-                        <img 
-                            src="https://images.unsplash.com/photo-1560185007-c5ca9d2c014d"
-                            class="w-full h-[400px] object-cover"
-                        />
-                        </div>
-
-                    </div>
-
-                    </div>
-
                 </div>
-                </section>
+            </section>
 
-            <section id="gallery"></section>
+            <section id="gallery" class="mt-10">
+                <div class="w-full h-195 flex flex-col items-center">
+                    <div class="titles w-89 h-[86px text-center">
+                        <p class="font-semibold text-[20px]/[150%] text-gray-500">Share your setup with</p>
+                        <p class="text-[40px]/[120%] font-bold text-gray-700">#FuniroFurniture</p>
+                    </div>
+                    <div class="images h-180.25 relative -top-15">
+                        <img src="assets/images/images.png" alt="">
+                    </div>
+                </div>
+            </section>
         </main>
 
-        <footer id="footer"></footer>
+        <footer id="footer" class="w-360 h-126.25 bg-red-200 mt-15 mb-5 flex justify-center items-center">
+            <div class="w-[1240.01px] h-104.75 bg-sky-100 flex flex-col justify-between">
+                <div class="group-one w-[1133.01px] h-78 bg-amber-300 flex justify-between">
+                    <div class="left-content w-75 h-37.5 flex flex-col justify-between">
+                        <p class="w-21.25 h-9 font-bold text-[24px]">Funiro.</p>
+                        <p class="w-71.25 h-18 text-[16px] text-[#9F9F9F]">
+                            400 University Drive Suite 200 Coral Gables,<br> FL 33134 USA
+                        </p>
+                    </div>
+                    <div class="right-content w-[710px] h-[312px] bg-fuchsia-200">
+                        <div class="left"></div>
+                        <div class="right"></div>
+                    </div>
+                </div>
+                <div class="group-two w-[1240.01px] h-14.75 bg-amber-900"></div>
+            </div>
+        </footer>
         <script src="main.js" defer></script>
     </body>
 </html>
